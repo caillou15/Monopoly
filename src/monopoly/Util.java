@@ -12,6 +12,6 @@ package monopoly;
 public class Util {
     //@Override
     public static void print(Joueur joueur, String msg) {
-	System.out.println("[Tour " + (joueur.obtenir_deplacement_total()+ 1) + "] [" + joueur.obtenir_position_actuelle()+ "] [" + joueur.obtenirArgent().toString() + "€] " + msg);
+	System.out.println("[Tour " + (joueur.obtenir_deplacement_total()+ 1) + "] [" + joueur.obtenir_position_actuelle()+ "] [" + joueur.obtenirArgent().obtenirArgent() + "€] " + msg);
     }
 }
