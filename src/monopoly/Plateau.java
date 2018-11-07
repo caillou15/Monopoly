@@ -65,7 +65,7 @@ public class Plateau {
 	Util.print(joueur, joueur.obtenirNom() + " va vers " + cases[joueur.obtenir_position_actuelle()].obtenirNom());
 	cases[nouvellePosition].faireAction(joueur, this);
 	if (joueur.obtenirArgent().estRuine()) {
-	    Util.print(joueur, joueur.obtenirNom() + "est ruiné!");
+	    Util.print(joueur, joueur.obtenirNom() + " est ruiné!");
 	    joueur.setRuine(true);
 	} else {
 	    if (compte) {
