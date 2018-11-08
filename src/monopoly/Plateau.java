@@ -83,7 +83,7 @@ public class Plateau {
 		case 9: cases[9] = new CasePrison("Prison");
 		case 19: cases[19] = new CaseParc("Parc gratuit");
 		case 29: cases[29] = new CaseAllerEnPrison("Aller en prison");
-		default: cases[i] = new CaseRue("rue", 1000);
+		default: cases[i] = new CaseRue("rue", 500);
 	    }
 	}
     }

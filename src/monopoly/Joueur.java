@@ -15,7 +15,7 @@ public class Joueur {
     int id;
     String nom;
     boolean ruine = false;
-    Argent argent = new Argent(5000);
+    Argent argent = new Argent(10000);
     /*
      * @todo couleur du joueur
      */

@@ -99,7 +99,7 @@ public class Monopoly {
      */
     public boolean estJeuFini() {
 	for (Joueur joueur : plateau.obtenirJoueurs()) {
-	    if (joueur.obtenir_deplacement_total() < 20) { return false; }
+	    if (joueur.obtenir_deplacement_total() < 100) { return false; }
 	}
 	return true;
     }
