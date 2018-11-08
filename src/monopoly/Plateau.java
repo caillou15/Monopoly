@@ -36,6 +36,48 @@ public class Plateau {
 	    switch(i) {
 		/*
 		@todo nom des rues
+		
+		Rues :
+		Recevez 20 000 F chaque fois que vous passez ici. 
+		Bd de Belleville — 6 000 F 
+		Caisse de Communauté 
+		Rue Lecourbe — 6 000 F
+		Impôt sur le revenu — payez 10 % ou 20 000 F
+		Gare Montparnasse — 20 000 F
+		Rue de Vaugirard — 10 000 F
+		Chance
+		Rue de Courcelles — 10 000 F
+		Avenue de la République — 12 000 F
+		SIMPLE VISITE EN PRISON  	 
+		Bd de la Villette — 14 000 F
+		Compagnie d’Électricité — 15 000 F
+		Avenue de Neuilly — 14 000 F
+		Rue de Paradis — 16 000 F
+		Gare de Lyon — 20 000 F
+		Avenue Mozart — 18 000 F
+		Caisse de Communauté 
+		Bd Saint-Michel — 18 000 F
+		Place Pigalle — 20 000 F
+		PARC GRATUIT
+		Avenue Matignon — 22 000 F
+		Chance
+		Bd Malesherbes — 22 000 F
+		Avenue Henri-Martin — 24 000 F
+		Gare du Nord — 20 000 F
+		Faubourg Saint-Honoré — 26 000 F
+		Place de la Bourse — 26 000 F
+		Compagnie des Eaux — 15 000 F
+		Rue La Fayette — 28 000 F
+		ALLEZ EN PRISON
+		Avenue de Breteuil — 30 000 F
+		Avenue Foch — 30 000 F
+		Caisse de Communauté
+		Bd des Capucines — 32 000 F
+		Gare Saint-Lazare — 20 000 F
+		Chance
+		Champs-Élysées — 35 000 F
+		Taxe de luxe — 10 000 F
+		Rue de la Paix — 40 000 F
 		*/
 		case 0: cases[i] = new CaseDepart("Départ");
 		case 9: cases[9] = new Case_prison("Prison");
