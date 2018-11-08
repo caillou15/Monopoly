@@ -80,9 +80,9 @@ public class Plateau {
 		Rue de la Paix — 40 000 F
 		*/
 		case 0: cases[i] = new CaseDepart("Départ");
-		case 9: cases[9] = new Case_prison("Prison");
+		case 9: cases[9] = new CasePrison("Prison");
 		case 19: cases[19] = new CaseParc("Parc gratuit");
-		case 29: cases[29] = new Case_prison("Fortune");
+		case 29: cases[29] = new CaseAllerEnPrison("Aller en prison");
 		default: cases[i] = new CaseRue("rue", 1000);
 	    }
 	}

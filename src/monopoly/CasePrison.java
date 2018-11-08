@@ -5,24 +5,20 @@
  */
 package monopoly;
 
-import java.util.Random;
-import monopoly.Case;
-
 /**
  *
  * @author admin
  */
-public class CaseParc extends Case{
+public class CasePrison extends Case{
     
-    public CaseParc(String nom) {
+    public CasePrison(String nom) {
 	super(nom);
     }
 
     @Override
     public void faireAction(Joueur joueur, Plateau plateau) {
-	Random rand = new Random();
-	Case uneCase = plateau.déplacerJoueur(joueur, rand.nextInt(plateau.obtenirTotalCase()), false);
-	Util.print(joueur, joueur.obtenirNom() + "vas en vacances à " + uneCase.obtenirNom());
+	Util.print(joueur, joueur.obtenirNom() + "a été en prison et perd 500 €");
+	joueur.obtenirArgent().retirerArgent(500);
     }
     
 }
